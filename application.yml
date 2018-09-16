@@ -2,14 +2,12 @@ spring:
   profiles:
     active:
       - dev
-
-# dev
+---
 spring:
   profiles: dev
   application:
     name: springcloud-study-dev
-
-# test
+---
 spring:
   profiles: test
   application:
