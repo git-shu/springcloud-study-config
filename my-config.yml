@@ -1,0 +1,24 @@
+spring:
+  profiles:
+    active:
+      - dev
+---
+spring:
+  profiles: dev
+  application:
+    name: springcloud-study-dev
+info:
+  name: shu
+  age: 800
+  gender: male
+  
+---
+spring:
+  profiles: test
+  application:
+    name: springcloud-study-test
+info:
+  name: Jane
+  age: 30
+  gender: female
+# 必须保存为UTF-8编码
