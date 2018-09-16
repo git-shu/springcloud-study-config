@@ -1,0 +1,18 @@
+# 必须保存为UTF-8编码
+spring:
+  profiles:
+    active:
+      - dev
+
+# dev
+spring:
+  profiles: dev
+  application:
+    name: springcloud-study-dev
+
+# test
+spring:
+  profiles: test
+  application:
+    name: springcloud-study-test
+
